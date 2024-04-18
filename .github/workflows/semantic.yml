@@ -23,9 +23,9 @@ jobs:
           node-version: 16
 
       - name: Setup package.json
-        run: echo '{"name":"demo", "devDependencies":{"@semantic-release/git":"^10.0.1", "@semantic-release/changelog", "@semantic-release/exec":"^6.0.3","semantic-release":"^19.0.5"}}' > package.json
+        run: echo '{"name":"demo", "devDependencies":{"@semantic-release/git":"^10.0.1","@semantic-release/exec":"^6.0.3","semantic-release":"^19.0.5"}}' > package.json
 
-      - name: Install dependenciesssss
+      - name: Install dependenciesss
         run: npm install
 
       - name: Release
