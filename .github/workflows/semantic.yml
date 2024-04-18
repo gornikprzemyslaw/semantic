@@ -5,11 +5,6 @@ on:
     workflows: [CI]
     types:
       - completed
-      -
-
-permissions:
-  id-token: write
-  contents: read
 
 jobs:
   release:
